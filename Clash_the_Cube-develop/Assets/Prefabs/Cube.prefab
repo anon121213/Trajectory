@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 1421377907603511973}
   - component: {fileID: 7977206454139647819}
   - component: {fileID: 1428683967468174549}
-  - component: {fileID: 2821461477732173247}
+  - component: {fileID: -541824333524259783}
   m_Layer: 3
   m_Name: Cube
   m_TagString: Cube
@@ -916,18 +916,6 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1421377907603511973}
         m_TargetAssemblyTypeName: ClashTheCube.FieldObjectBase, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1421377907603511973}
-        m_TargetAssemblyTypeName: ClashTheCube.FieldObjectBase, Assembly-CSharp
         m_MethodName: Accelerate
         m_Mode: 1
         m_Arguments:
@@ -967,7 +955,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   Event: {fileID: 11400000, guid: 3247dc500fbf04d0b893afffd50bb7e9, type: 2}
---- !u!120 &2821461477732173247
+--- !u!120 &-541824333524259783
 LineRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
@@ -976,8 +964,8 @@ LineRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6603198564425383881}
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 0
@@ -1019,8 +1007,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.007091522
-        value: 0.2644577
+        time: 0.010959625
+        value: 0.23456764
         inSlope: 0
         outSlope: 0
         tangentMode: 0

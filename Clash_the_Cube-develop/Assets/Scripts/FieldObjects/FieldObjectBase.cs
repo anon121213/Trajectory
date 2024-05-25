@@ -112,6 +112,7 @@ namespace ClashTheCube
                         landingPosition = position;
                         _lineRenderer.positionCount = i + 1;
                         _landingSphere.transform.position = landingPosition;
+                        print(landingPosition);
                         break;
                     }
                 }

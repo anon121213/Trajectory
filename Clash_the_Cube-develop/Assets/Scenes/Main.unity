@@ -88980,7 +88980,7 @@ GameObject:
   - component: {fileID: 1002749829}
   - component: {fileID: 1002749828}
   - component: {fileID: 1002749827}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
