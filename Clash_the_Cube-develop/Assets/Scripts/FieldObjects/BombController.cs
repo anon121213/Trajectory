@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Framework.Variables;
-
 using Framework.SystemInfo;
 using Framework.Events;
 using DG.Tweening;
